@@ -6,7 +6,7 @@ Enter the Mouse Nudger! It'll move your mouse ever so slightly to stop your comp
 ## Virtual Environment and Required Modules Setup
 ```
 $ virtualenv env
-source env/bin/activate
+$ source env/bin/activate
 
 $ pip install -r requirements.txt
 ```
@@ -27,7 +27,7 @@ You can update these parameters in the [nudger.py](nudger.py) file to customize 
 ## Running It
 Run the nudger with the following:
 ```
-python nudger.py
+$ python nudger.py
 ```
 It will print out the current position of the mouse and then how much it moved the mouse each time it nudges.
 ```
